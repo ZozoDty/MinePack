@@ -1,0 +1,16 @@
+Light Gray : #8e8f88
+Black : #000000
+Gray : #3c3c3a
+White : #ffffff
+Yellow : #d1ce12
+Orange : #c67012
+Red : #a71719
+Pink : #d077c3
+Magenta : #a62874
+Purple : #732899
+Blue : #2a2a7b
+Cyan : #2d888c
+Light Blue : #2f81c8
+Brown : #2f81c8
+Green : #284520
+Lime : #4a9420
