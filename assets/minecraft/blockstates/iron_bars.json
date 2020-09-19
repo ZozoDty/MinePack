@@ -7,10 +7,10 @@
     },
     {
       "when": {
-        "north": "false",
-        "south": "false",
+        "west": "false",
         "east": "false",
-        "west": "false"
+        "south": "false",
+        "north": "false"
       },
       "apply": {
         "model": "minecraft:block/iron_bars_post"
@@ -18,10 +18,10 @@
     },
     {
       "when": {
-        "north": "true",
-        "south": "false",
+        "west": "false",
         "east": "false",
-        "west": "false"
+        "south": "false",
+        "north": "true"
       },
       "apply": {
         "model": "minecraft:block/iron_bars_cap"
@@ -29,37 +29,37 @@
     },
     {
       "when": {
-        "north": "false",
-        "south": "false",
+        "west": "false",
         "east": "true",
-        "west": "false"
-      },
-      "apply": {
-        "y": 90,
-        "model": "minecraft:block/iron_bars_cap"
-      }
-    },
-    {
-      "when": {
-        "north": "false",
-        "south": "true",
-        "east": "false",
-        "west": "false"
-      },
-      "apply": {
-        "model": "minecraft:block/iron_bars_cap_alt"
-      }
-    },
-    {
-      "when": {
-        "north": "false",
         "south": "false",
-        "east": "false",
-        "west": "true"
+        "north": "false"
       },
       "apply": {
-        "y": 90,
+        "model": "minecraft:block/iron_bars_cap",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "west": "false",
+        "east": "false",
+        "south": "true",
+        "north": "false"
+      },
+      "apply": {
         "model": "minecraft:block/iron_bars_cap_alt"
+      }
+    },
+    {
+      "when": {
+        "west": "true",
+        "east": "false",
+        "south": "false",
+        "north": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_cap_alt",
+        "y": 90
       }
     },
     {
@@ -75,8 +75,8 @@
         "east": "true"
       },
       "apply": {
-        "y": 90,
-        "model": "minecraft:block/iron_bars_side"
+        "model": "minecraft:block/iron_bars_side",
+        "y": 90
       }
     },
     {
@@ -92,8 +92,8 @@
         "west": "true"
       },
       "apply": {
-        "y": 90,
-        "model": "minecraft:block/iron_bars_side_alt"
+        "model": "minecraft:block/iron_bars_side_alt",
+        "y": 90
       }
     }
   ]
